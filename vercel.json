@@ -1,4 +1,10 @@
 {
+  "builds": [
+    {
+      "src": "learinig_log/wsgi.py",
+      "use": "@vercel/python"
+    }
+  ],
   "routes": [
     {
       "src": "/(.*)",
